@@ -1,5 +1,7 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
 import PaginaPadrao from "./Components/PaginaPadrao";
 import Rodape from "./Components/Rodape/Rodape";
 import ScrollToTop from "./Components/ScrollToTop";
@@ -12,7 +14,6 @@ import "./App.css";
 
 const App = () => (
   <BrowserRouter>
-    <ScrollToTop />
     <Menu />
 
     <Routes>
@@ -21,7 +22,7 @@ const App = () => (
         <Route path="sobremim" element={<SobreMim />} />
       </Route>
 
-      <Route path="posts/:id/*" element={<Post />} />
+      <Route path="posts/:id" element={<Post />} />
       <Route path="*" element={<NaoEncontrada />} />
     </Routes>
 
