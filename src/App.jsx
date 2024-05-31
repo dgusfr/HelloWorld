@@ -1,15 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./App.css";
+import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PaginaPadrao from "componentes/PaginaPadrao";
-import Rodape from "componentes/Rodape";
-import ScrollToTop from "componentes/ScrollToTop";
-import NaoEncontrada from "paginas/NaoEncontrada";
-import Post from "paginas/Post";
-import Menu from "./componentes/Menu";
-import Inicio from "./paginas/Inicio";
-import SobreMim from "./paginas/SobreMim";
+import PaginaPadrao from "Components/PaginaPadrao";
+import Rodape from "Components/Rodape";
+import ScrollToTop from "Components/ScrollToTop";
+import NaoEncontrada from "Pages/NaoEncontrada";
+import Post from "Pages/Post";
+import Menu from "./Components/Menu";
+import Inicio from "./Pages/Inicio";
+import SobreMim from "./Pages/SobreMim";
 
 const App = () => (
   <BrowserRouter>
