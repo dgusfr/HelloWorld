@@ -6,50 +6,46 @@ import fotoSobreMim from "../../assets/sobre_mim_foto.png";
 export default function SobreMim() {
   return (
     <PostModelo fotoCapa={fotoCapa} titulo="Sobre mim">
-      <h3 className={styles.subtitulo}>Olá, eu sou o Antônio!</h3>
+      <h3 className={styles.subtitulo}>Olá, eu sou o Diego!</h3>
 
-      <img
-        src={fotoSobreMim}
-        alt="Foto do Antônio Evaldo sorrindo"
-        className={styles.fotoSobreMim}
-      />
+      <img src={fotoSobreMim} alt="Foto" className={styles.fotoSobreMim} />
 
       <p className={styles.paragrafo}>
-        Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te
-        ver por aqui.
+        Oi, tudo bem? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Officia neque, nemo aperiam ipsa cupiditate vitae at voluptatibus magni?
+        Maiores explicabo eius nam sapiente quod, rerum nisi officia ab
+        temporibus odit?
       </p>
       <p className={styles.paragrafo}>
-        Minha história com programação começou no Instituto Federal do Piauí
-        (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu
-        aprendi lógica de programação e o básico de várias linguagens, como PHP,
-        Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava
-        muito de estudar programação, mas na época não fazia ideia de que
-        trabalharia com isso hoje.
+        Minha história com programação começou na Federal... Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Neque maxime minima expedita, nam
+        quos facilis voluptates facere molestias deleniti a. Animi
+        necessitatibus nisi porro itaque quaerat fugiat aperiam blanditiis non?
       </p>
       <p className={styles.paragrafo}>
-        No ensino superior, escolhi cursar Engenharia Elétrica na Universidade
-        Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de
-        Educação Tutorial), um grupo acadêmico que contribui de diversas formas
-        para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web
-        para ser um dos mantenedores do site deles.
+        No ensino superior, escolhi cursar Engenharia Elétrica de Computação...
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+        veritatis corporis dolorum eum praesentium hic repellendus voluptate
+        voluptatum quibusdam qui minima aliquid perspiciatis voluptas,
+        repudiandae non, nihil explicabo. Sequi, velit?
       </p>
       <p className={styles.paragrafo}>
-        Com isso tive minha experiência de dev mais próxima da realidade, com
-        prazos de implementação para o site, e aprendi muito enquanto
-        codificava.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ullam,
+        facilis fugiat tempora ad beatae, iusto deserunt obcaecati pariatur
+        veritatis ab modi. Autem ratione eum veniam assumenda nobis, culpa
+        ipsam?
       </p>
       <p className={styles.paragrafo}>
-        E foi enquanto eu estava no PET que decidi procurar um estágio em
-        desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e
-        percebi que ela aliava duas paixões minhas: programação e educação. Para
-        minha felicidade, fui escolhido para fazer parte do time.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim
+        expedita, rerum quasi ipsa itaque? Et cumque tenetur enim recusandae
+        voluptates corporis porro officia commodi autem nihil temporibus,
+        tempora repellat.
       </p>
       <p className={styles.paragrafo}>
-        Desde então, tem sido aprenas aprendizados atrás de aprendizados. A
-        Alura é uma escola não só para seus alunos e alunas, mas também para os
-        colaboradores e colaboradoras. Hoje sou muito feliz de ter a
-        oportunidade de trazer esses conteúdos ricos e encantadores para você.
-        Espero que aprenda bastante!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus itaque
+        dolorem exercitationem, vel cumque sapiente magni deleniti dolorum ex
+        quasi quia harum dolor! Reprehenderit officia sapiente magni facere
+        quaerat odio.
       </p>
     </PostModelo>
   );
