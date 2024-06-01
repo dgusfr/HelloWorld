@@ -1,7 +1,14 @@
+import { useLocation } from "react-router-dom";
 import styles from "./Banner.module.css";
 import minhaFoto from "../../assets/minha_foto.png";
 
 export default function Banner() {
+  const location = useLocation();
+
+  if (location.pathname === "/sobremim" || location.pathname === "/contato") {
+    return null;
+  }
+
   return (
     <div className={styles.banner}>
       <div className={styles.apresentacao}>

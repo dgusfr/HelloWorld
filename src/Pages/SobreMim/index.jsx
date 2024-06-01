@@ -29,24 +29,67 @@ export default function SobreMim() {
         voluptatum quibusdam qui minima aliquid perspiciatis voluptas,
         repudiandae non, nihil explicabo. Sequi, velit?
       </p>
-      <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ullam,
-        facilis fugiat tempora ad beatae, iusto deserunt obcaecati pariatur
-        veritatis ab modi. Autem ratione eum veniam assumenda nobis, culpa
-        ipsam?
-      </p>
-      <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim
-        expedita, rerum quasi ipsa itaque? Et cumque tenetur enim recusandae
-        voluptates corporis porro officia commodi autem nihil temporibus,
-        tempora repellat.
-      </p>
-      <p className={styles.paragrafo}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus itaque
-        dolorem exercitationem, vel cumque sapiente magni deleniti dolorum ex
-        quasi quia harum dolor! Reprehenderit officia sapiente magni facere
-        quaerat odio.
-      </p>
+      <section
+        className={styles.experiencia}
+        id="experiencia"
+        aria-label="Experiência"
+      >
+        <div className={styles.experienciaContainer}>
+          <h2 className={styles.experienciaSubtitulo}>Experiência</h2>
+          <div className={styles.empresa}>
+            <span className={styles.empresaAno}>2023-</span>
+            <h3 className={styles.empresaTitulo}>Shipay</h3>
+            <span className={styles.empresaTitulo}>IT Support Analyst</span>
+            <p className={styles.empresaTexto}>
+              Sou responsável por dar suporte a operação, que envolve desde o
+              atendimento ai cliente até a utilização da API e testes
+              automatizados.
+            </p>
+            <ul className={styles.empresaHabilidades}>
+              <li>Zendesk</li>
+              <li>Postman</li>
+              <li>grafana</li>
+              <li>DataDog</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section className={styles.formacao} id="formacao" aria-label="Formação">
+        <div className={styles.formacaoContainer}>
+          <h2 className={styles.formacaoSubtitulo}>Formação</h2>
+          <div>
+            <p className={styles.formacaoTexto}>
+              Curso Engenharia de Computação na Universidade Virtual do Estado
+              de São Paulo, concomitantemente com Análise e Desenvolvimento de
+              Sistemas pela Anhembi Morumbi, o que tem contribuído
+              significativamente no meu desenvolvimento profissional.
+            </p>
+            <ul className={styles.faculdadeLista}>
+              <li className={styles.faculdade}>
+                <span className={styles.faculdadeTipo}>Bacharel</span>
+                <h3 className={styles.faculdadeCurso}>
+                  Engenharia de Computação
+                </h3>
+                <h4 className={styles.faculdadeCurso}>De 2023 à 2027</h4>
+                <span className={styles.faculdadeInstituicao}>
+                  Univesp - Universidade Virtual do Estado de São Paulo
+                </span>
+              </li>
+              <li className={styles.faculdade}>
+                <span className={styles.faculdadeTipo}>Tecnólogo</span>
+                <h3 className={styles.faculdadeCurso}>
+                  Análise e Desenvolvimento de Sistemas
+                </h3>
+                <h4 className={styles.faculdadeCurso}>De 2023 à 2025</h4>
+                <span className={styles.faculdadeInstituicao}>
+                  Anhembi Morumbi
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </PostModelo>
   );
 }
