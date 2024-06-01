@@ -1,14 +1,32 @@
 .navegacao {
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: var(--branco);
 }
 
- 
+.navegacao div {
+  display: flex;
+  gap: 1em;
+}
+
+.navegacao a {
+  color: var(--azul-escuro);
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border: 2px solid var(--azul-escuro);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+}
+
 @media (max-width: 744px) {
-    .navegacao {
-        height: 72px;
-    }
+  .navegacao {
+    height: 72px;
+  }
 }

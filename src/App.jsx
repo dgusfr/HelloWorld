@@ -10,6 +10,7 @@ import Post from "./Pages/Post";
 import Menu from "./Components/Menu";
 import Inicio from "./Pages/Inicio";
 import SobreMim from "./Pages/SobreMim";
+import Contato from "./Pages/Contato";
 import "./App.css";
 
 const App = () => (
@@ -20,6 +21,7 @@ const App = () => (
       <Route path="/" element={<PaginaPadrao />}>
         <Route index element={<Inicio />} />
         <Route path="sobremim" element={<SobreMim />} />
+        <Route path="/contato" element={<Contato />} />
       </Route>
 
       <Route path="posts/:id" element={<Post />} />

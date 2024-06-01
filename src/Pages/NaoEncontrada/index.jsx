@@ -25,12 +25,6 @@ export default function NaoEncontrada() {
         <div className={styles.botaoContainer} onClick={() => navegar(-1)}>
           <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
         </div>
-
-        <img
-          className={styles.imagemCachorro}
-          src={erro404}
-          alt="Cachorro de óculos e vestido como humano"
-        />
       </div>
       <div className={styles.espacoEmBranco}></div>
     </>
