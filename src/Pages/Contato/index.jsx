@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Contato.module.css";
 import PostModelo from "../../Components/PostModelo";
-import fotoCapa from "../../assets/sobre_mim_capa.png";
+import fotoCapaContato from "../../assets/banner_contato.png";
 
 const Contato = () => {
   return (
-    <PostModelo fotoCapa={fotoCapa} titulo="Contato">
+    <PostModelo fotoCapa={fotoCapaContato} titulo="Contato">
       <div className={styles.contato}>
         <p>
           Para entrar em contato comigo, você pode usar qualquer um dos
