@@ -59,29 +59,32 @@
 @media (max-width: 744px) {
   .banner {
     padding: 2rem 1rem;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   .titulo {
-    margin-bottom: 2rem;
+    flex: 1 0 100%;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
   }
-
   .paragrafo {
+    flex: 1 0 60%;
     margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    text-align: justify;
   }
 
   .imagens {
-    height: 307px;
+    flex: 1 0 40%;
   }
 
   .imagens > .minhaFoto {
-    left: 0;
     right: 0;
-    margin: 0 auto;
-  }
-
-  .imagens > .minhaFoto {
-    width: 240px;
-    transform: translate(-1.5rem, 0px);
+    width: 100%;
   }
 }

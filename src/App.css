@@ -10,11 +10,17 @@
   --cinza-escuro: #525252;
   /* Azul */
   --azul-claro: #a0d2eb;
-  --azul-escuro: #243c68;
   --azul-medio: #3b82f6;
+  --azul-escuro: #243c68;
   /* Laranja*/
   --laranja: #ffa500;
   --laranja-escuro: #ff6700;
+  /* Amarelo */
+  --amarelo: #ffdd00;
+  --amarelo-mostarda: #f7c600;
+  /* verde */
+  --verde: #28a745;
+  --verde-claro: #20c997;
   /* Preto e Branco */
   --branco: #ffffff;
   --black: #141414;
