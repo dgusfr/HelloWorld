@@ -5,13 +5,25 @@
 }
 
 :root {
-  --azul-escuro: #041833;
-  --azul-medio: #1875e8;
-  --cor-fonte-principal: #041833;
-  --cor-fonte-post: #444444;
-  --branco: #fff;
-  --fonte-principal: "Raleway", sans-serif;
-  --fonte-secundaria: "Playfair Display", sans-serif;
+  --cinza-claro: #cccccc;
+  --cinza-medio: #8f8f8f;
+  --cinza-escuro: #525252;
+  /* Azul */
+  --azul-claro: #a0d2eb;
+  --azul-escuro: #243c68;
+  --azul-medio: #3b82f6;
+  /* Laranja*/
+  --laranja: #ffa500;
+  --laranja-escuro: #ff6700;
+  /* Preto e Branco */
+  --branco: #ffffff;
+  --black: #141414;
+  /* Cor fonte */
+  --cor-fonte-principal: #243c68;
+  --cor-fonte-post: #4a4a4a;
+  /* Fontes */
+  --fonte-principal: "Cascadia Code", monospace;
+  --fonte-secundaria: "Raleway", sans-serif;
 }
 
 body {

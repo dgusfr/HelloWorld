@@ -5,10 +5,9 @@ export default function Menu() {
   return (
     <header>
       <nav className={styles.navegacao}>
-        <div className={styles.inicio}>
+        <h1 className={styles.titulo}>PORTFOLIO</h1>
+        <div className={styles.links}>
           <MenuLink to="/">Início</MenuLink>
-        </div>
-        <div className={styles.outros}>
           <MenuLink to="/sobremim">Sobre Mim</MenuLink>
           <MenuLink to="/contato">Contato</MenuLink>
         </div>
