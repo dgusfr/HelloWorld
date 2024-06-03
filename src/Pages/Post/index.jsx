@@ -39,9 +39,7 @@ export default function Post() {
                 <ReactMarkdown>{post.texto}</ReactMarkdown>
               </div>
 
-              <h2 className={styles.tituloOutrosPosts}>
-                Outros posts que você pode gostar:
-              </h2>
+              <h2 className={styles.tituloOutrosPosts}>Outros projetos:</h2>
 
               <ul className={styles.postsRecomendados}>
                 {postsRecomendados.map((post) => (

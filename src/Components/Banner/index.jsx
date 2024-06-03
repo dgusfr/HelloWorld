@@ -21,12 +21,17 @@ export default function Banner() {
     return (
       <div className={styles.banner}>
         <div className={styles.apresentacao}>
-          <h1 className={styles.titulo}>Olá, Mundo!</h1>
+          <h1 className={styles.titulo}>
+            Olá, eu sou
+            <br />
+            Diego Franco!
+          </h1>
           <p className={styles.paragrafo}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-            adipisci quo pariatur fugit, recusandae sed illo. Impedit enim cum
-            ducimus rerum at sed sequi illo! Saepe deserunt debitis pariatur
+            Front End Developer <br /> & <br /> IT Support Analyst
           </p>
+          <div>
+            <p>Localizado em São Paulo-SP</p>
+          </div>
         </div>
         <div className={styles.imagens}>
           <img className={styles.minhaFoto} src={minhaFoto} alt="Foto" />
@@ -38,13 +43,17 @@ export default function Banner() {
   return (
     <div className={styles.banner}>
       <div className={styles.apresentacao}>
-        <h1 className={styles.titulo}>Olá, Mundo!</h1>
-
+        <h1 className={styles.titulo}>
+          Olá, eu sou
+          <br />
+          Diego Franco!
+        </h1>
         <p className={styles.paragrafo}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-          adipisci quo pariatur fugit, recusandae sed illo. Impedit enim cum
-          ducimus rerum at sed sequi illo! Saepe deserunt debitis pariatur
+          Front End Developer <br /> & <br /> IT Support Analyst
         </p>
+        <div>
+          <p>Localizado em São Paulo-SP</p>
+        </div>
       </div>
       <div className={styles.imagens}>
         <img className={styles.minhaFoto} src={minhaFoto} alt="Foto" />
