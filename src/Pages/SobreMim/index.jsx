@@ -11,23 +11,32 @@ export default function SobreMim() {
       <img src={fotoSobreMim} alt="Foto" className={styles.fotoSobreMim} />
 
       <p className={styles.paragrafo}>
-        Oi, tudo bem? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Officia neque, nemo aperiam ipsa cupiditate vitae at voluptatibus magni?
-        Maiores explicabo eius nam sapiente quod, rerum nisi officia ab
-        temporibus odit?
+        Comecei minha jornada nas linhas de código em 2021 quando cursava
+        Ciência e Tecnologia pela Universidade Federal de Alfenas. Na época eu
+        codava apenas em C e C++ para os trabalhos acadêmicos e estudos em
+        matemática computacional, mas com o tempo fui me apaixonando por
+        programação e resolvi me aprofundar mais nesse mundo.
       </p>
       <p className={styles.paragrafo}>
-        Minha história com programação começou na Federal... Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Neque maxime minima expedita, nam
-        quos facilis voluptates facere molestias deleniti a. Animi
-        necessitatibus nisi porro itaque quaerat fugiat aperiam blanditiis non?
+        Infelizmente na Faculdade que eu estava não tinham cursos que fossem
+        voltados a programação, por esse motivo em 2023 migrei para o curso de
+        Engenharia de Computação na Universidade Virtual do Estado de São Paulo
+        - Univesp, para poder me aprofundar mais nesse mundo de tecnologia e
+        continuar melhorando minhas habilidades como engenheiro.
       </p>
       <p className={styles.paragrafo}>
-        No ensino superior, escolhi cursar Engenharia Elétrica de Computação...
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-        veritatis corporis dolorum eum praesentium hic repellendus voluptate
-        voluptatum quibusdam qui minima aliquid perspiciatis voluptas,
-        repudiandae non, nihil explicabo. Sequi, velit?
+        Em 2023 também iniciei meu curso de tecnologo em Analise e
+        desenvcolvimento de sistemas na Anhembi Morumbi, para poder me
+        aprofundar mais em desenvolvimento de software e poder me tornar um
+        desenvolvedor mais completo.
+        <br />
+        <br />
+        Desde então venho estudando e me aprimorando cada vez mais, sempre
+        buscando novos desafios e aprendizados, unindo os conhecimentos da base
+        de computação que estou adquirindo na Univesp e a pratica de
+        desenvolvimento de software que estou tendo na Anhembi, com os cursos
+        livres que realizo para ficar sempre atualizado com as novas
+        tecnologias.
       </p>
       <section
         className={styles.experiencia}
@@ -39,10 +48,12 @@ export default function SobreMim() {
           <div className={styles.empresa}>
             <span className={styles.empresaAno}>2023-</span>
             <h3 className={styles.empresaTitulo}>Shipay</h3>
-            <span className={styles.empresaTitulo}>IT Support Analyst</span>
+            <span className={styles.empresaTitulo}>
+              Analista de Suporte e Operações N1
+            </span>
             <p className={styles.empresaTexto}>
               Sou responsável por dar suporte a operação, que envolve desde o
-              atendimento ai cliente até a utilização da API e testes
+              atendimento ao cliente até a utilização da API e testes
               automatizados.
             </p>
             <ul className={styles.empresaHabilidades}>
@@ -53,18 +64,30 @@ export default function SobreMim() {
               <li>Jira</li>
             </ul>
           </div>
+          <div className={styles.empresa}>
+            <span className={styles.empresaAno}>2022-</span>
+            <h3 className={styles.empresaTitulo}>Desenvolvedor Front-end</h3>
+            <p className={styles.empresaTexto}>
+              Desde 2022 venho trabalhando como desenvolvedor front-end em
+              projetos pessoais e freelances, desenvolvendo sites mais simples
+              até aplicações complexas com interações com API´s. Todos os meus
+              projetos estão disposniveis em meu Github e na aba Home deste
+              site, você pode conferir os melhores projetos.
+            </p>
+            <ul className={styles.empresaHabilidades}>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Next JS</li>
+              <li>Sass</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
         </div>
       </section>
       <section className={styles.formacao} id="formacao" aria-label="Formação">
         <div className={styles.formacaoContainer}>
           <h2 className={styles.formacaoSubtitulo}>Formação</h2>
           <div>
-            <p className={styles.formacaoTexto}>
-              Curso Engenharia de Computação na Universidade Virtual do Estado
-              de São Paulo, concomitantemente com Análise e Desenvolvimento de
-              Sistemas pela Anhembi Morumbi, o que tem contribuído
-              significativamente no meu desenvolvimento profissional.
-            </p>
             <ul className={styles.faculdadeLista}>
               <li className={styles.faculdade}>
                 <span className={styles.faculdadeTipo}>Bacharel</span>
