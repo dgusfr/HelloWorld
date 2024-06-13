@@ -25,6 +25,8 @@
 }
 
 .contato a {
+  display: flex;
+  align-items: center;
   color: var(--azul-escuro);
   text-decoration: none;
   transition: color 0.3s ease;
@@ -32,4 +34,8 @@
 
 .contato a:hover {
   color: var(--azul-claro);
+}
+
+.icon {
+  margin-right: 8px;
 }

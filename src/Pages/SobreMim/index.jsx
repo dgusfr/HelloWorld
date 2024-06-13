@@ -5,7 +5,7 @@ import fotoSobreMim from "../../assets/sobre_mim_foto.png";
 
 export default function SobreMim() {
   return (
-    <PostModelo fotoCapa={fotoCapa} titulo="Sobre mim">
+    <PostModelo fotoCapa={fotoCapa} titulo=" ">
       <h3 className={styles.subtitulo}>Olá, eu sou o Diego!</h3>
 
       <img src={fotoSobreMim} alt="Foto" className={styles.fotoSobreMim} />

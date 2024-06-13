@@ -2,10 +2,11 @@ import React from "react";
 import styles from "./Contato.module.css";
 import PostModelo from "../../Components/PostModelo";
 import fotoCapaContato from "../../assets/banner_contato.png";
+import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Contato = () => {
   return (
-    <PostModelo fotoCapa={fotoCapaContato} titulo="Contato">
+    <PostModelo fotoCapa={fotoCapaContato} titulo=" ">
       <div className={styles.contato}>
         <p>
           Para entrar em contato comigo, você pode usar qualquer um dos
@@ -14,7 +15,9 @@ const Contato = () => {
         <ul>
           <li>
             <strong>Email:</strong>{" "}
-            <a href="mailto:seuemail@example.com">seuemail@example.com</a>
+            <a href="mailto:seuemail@example.com">
+              <FaEnvelope className={styles.icon} /> seuemail@example.com
+            </a>
           </li>
           <li>
             <strong>LinkedIn:</strong>{" "}
@@ -23,10 +26,15 @@ const Contato = () => {
               target="_blank"
               rel="noreferrer"
             >
-              seuusername
+              <FaLinkedin className={styles.icon} /> seuusername
             </a>
           </li>
-          {/* Adicione mais informações de contato aqui */}
+          <li>
+            <strong>Telefone:</strong>{" "}
+            <a href="tel:+5511999999999">
+              <FaPhone className={styles.icon} /> +55 11 99999-9999
+            </a>
+          </li>
         </ul>
       </div>
     </PostModelo>
