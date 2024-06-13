@@ -25,15 +25,15 @@ export default function SobreMim() {
         continuar melhorando minhas habilidades como engenheiro.
       </p>
       <p className={styles.paragrafo}>
-        Em 2023 também iniciei meu curso de tecnologo em Analise e
-        desenvcolvimento de sistemas na Anhembi Morumbi, para poder me
-        aprofundar mais em desenvolvimento de software e poder me tornar um
-        desenvolvedor mais completo.
+        Em 2023 também iniciei meu curso de tecnólogo em análise e
+        desenvolvimento de sistemas na Anhembi Morumbi, para poder me aprofundar
+        mais em desenvolvimento de software e poder me tornar um desenvolvedor
+        mais completo.
         <br />
         <br />
         Desde então venho estudando e me aprimorando cada vez mais, sempre
         buscando novos desafios e aprendizados, unindo os conhecimentos da base
-        de computação que estou adquirindo na Univesp e a pratica de
+        de computação que estou adquirindo na Univesp e a prática de
         desenvolvimento de software que estou tendo na Anhembi, com os cursos
         livres que realizo para ficar sempre atualizado com as novas
         tecnologias.
@@ -68,11 +68,11 @@ export default function SobreMim() {
             <span className={styles.empresaAno}>2022-</span>
             <h3 className={styles.empresaTitulo}>Desenvolvedor Front-end</h3>
             <p className={styles.empresaTexto}>
-              Desde 2022 venho trabalhando como desenvolvedor front-end em
+              Desde 2022 venho trabalhando como desenvolvedor Front-end em
               projetos pessoais e freelances, desenvolvendo sites mais simples
-              até aplicações complexas com interações com API´s. Todos os meus
-              projetos estão disposniveis em meu Github e na aba Home deste
-              site, você pode conferir os melhores projetos.
+              até aplicações complexas com interações com API's. Todos os meus
+              projetos estão disponíveis em meu GitHub e na aba Home deste site,
+              você pode conferir os melhores projetos.
             </p>
             <ul className={styles.empresaHabilidades}>
               <li>JavaScript</li>
