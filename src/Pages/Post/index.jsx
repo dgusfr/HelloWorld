@@ -32,7 +32,7 @@ export default function Post() {
           index
           element={
             <PostModelo
-              fotoCapa={`/assets/posts/${post.id}/capa.png`}
+              fotoCapa={`/assets/posts/capa.png`}
               titulo={post.titulo}
             >
               <div className="post-markdown-container">
