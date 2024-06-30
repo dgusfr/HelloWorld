@@ -8,31 +8,22 @@ const Contato = () => {
   return (
     <PostModelo fotoCapa={fotoCapaContato} titulo=" ">
       <div className={styles.contato}>
-        <p>
-          Para entrar em contato comigo, você pode usar qualquer um dos
-          seguintes métodos:
-        </p>
+        <p>Você pode entrar em contato comigo pelos meios:</p>
         <ul>
           <li>
-            <strong>Email:</strong>{" "}
-            <a href="mailto:seuemail@example.com">
-              <FaEnvelope className={styles.icon} /> seuemail@example.com
+            <a>
+              <FaEnvelope className={styles.icon} />
+              diego.u.franco@gmail.com
             </a>
           </li>
           <li>
-            <strong>LinkedIn:</strong>{" "}
             <a
-              href="https://www.linkedin.com/in/seuusername/"
+              href="https://www.linkedin.com/in/diego-gustavo-franco/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className={styles.icon} /> seuusername
-            </a>
-          </li>
-          <li>
-            <strong>Telefone:</strong>{" "}
-            <a href="tel:+5511999999999">
-              <FaPhone className={styles.icon} /> +55 11 99999-9999
+              <FaLinkedin className={styles.icon} />{" "}
+              https://www.linkedin.com/in/diego-gustavo-franco/
             </a>
           </li>
         </ul>
