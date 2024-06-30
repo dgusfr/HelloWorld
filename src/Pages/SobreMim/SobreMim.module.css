@@ -7,7 +7,7 @@
 
 .subtitulo {
   margin-bottom: 2rem;
-  font-size: 2.5rem;
+  font-size: 5rem;
 }
 
 .paragrafo {
@@ -19,12 +19,12 @@
 
 .experiencia,
 .formacao {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .experienciaContainer,
 .formacaoContainer {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .experienciaSubtitulo,

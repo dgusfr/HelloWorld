@@ -1,14 +1,11 @@
 import styles from "./SobreMim.module.css";
 import PostModelo from "../../Components/PostModelo";
 import fotoCapa from "../../assets/sobre_mim_capa.png";
-import fotoSobreMim from "../../assets/sobre_mim_foto.png";
 
 export default function SobreMim() {
   return (
     <PostModelo fotoCapa={fotoCapa} titulo=" ">
       <h3 className={styles.subtitulo}>Olá, eu sou o Diego!</h3>
-
-      <img src={fotoSobreMim} alt="Foto" className={styles.fotoSobreMim} />
 
       <p className={styles.paragrafo}>
         Comecei minha jornada nas linhas de código em 2021 quando cursava

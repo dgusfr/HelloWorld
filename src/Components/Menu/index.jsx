@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <header>
       <nav className={styles.navegacao}>
-        <h1 className={styles.titulo}>PORTFOLIO</h1>
+        <h1 className={styles.titulo}>PORTFÓLIO</h1>
         <div className={styles.links}>
           <MenuLink to="/">Início</MenuLink>
           <MenuLink to="/sobremim">Sobre Mim</MenuLink>
